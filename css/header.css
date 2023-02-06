@@ -1,0 +1,53 @@
+.cabecera{
+    background-color: #011126;
+    display: grid;
+    width: 100%;
+    font-family: 'Forum';
+    font-weight: bolder;
+  }
+  
+   .cabecera p{
+    color: white;
+    width: fit-content;
+   }
+  
+   .cabecera img{
+    width: 200px;
+    width: 175px;
+    margin-left: 5px;
+   }
+  
+  .cabecera ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    
+  }
+  
+  .cabecera li{
+    list-style: none;
+  }
+  
+  .cabecera a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .cabecera2{
+    background-color: #011126;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    border-top: 4px solid #A3C4D9;
+    font-family: 'Forum';
+  }
+  
+  .cabecera2 p{
+    color: white;
+  }
+  
+  
+  .cabecera2 img{
+    width: 80px;
+    height: 80px;
+  }
