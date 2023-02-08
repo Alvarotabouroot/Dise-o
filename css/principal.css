@@ -1,26 +1,26 @@
 @keyframes animate{
 	0%{
-		background-image: url(img/slider1.png);
+		background-image: url(../img/slider1.png);
 		background-size: cover;
 	}
 
 	25%{
-		background-image: url(img/slider2.png);
+		background-image: url(../img/slider2.png);
 		background-size: cover;
 	}
 
 	50%{
-		background-image: url(img/slider3.png);
+		background-image: url(../img/slider3.png);
 		background-size: cover;
 	}
 
 	75%{
-		background-image: url(img/slider4.png);
+		background-image: url(../img/slider4.png);
 		background-size: cover;
 	}
 
 	100%{
-		background-image: url(img/slider1.png);
+		background-image: url(../img/slider1.png);
 		background-size: cover;
 	}
 
@@ -120,35 +120,4 @@ p{
     justify-content: center;
   }
 
-  @media (min-width: 320px) {
-      .cabecera img {
-        width: 100px;
-        height: 100px;
-      }
-      .cabecera ul{
-        margin-left: 2px;
-      }
-  }
   
-  @media (min-width: 375px){
-    .cabecera ul{
-      margin-right: 5px;
-    }
-  }
-  
-  @media (min-width: 425px){
-    .cabecera ul{
-      margin-right: 20px;
-    }
-  }
-
-  @media (min-width: 500px){
-    .cabecera { grid-template-columns: repeat(1, 1fr); }
-  }
-
-  @media (min-width: 1000px) {
-    .cabecera { grid-template-columns: repeat(2, 1fr); }
-    .cabecera ul{
-      margin-top: 40px;
-    }
-  }

@@ -1,0 +1,78 @@
+.cabecera {
+  background-color: #011126;
+  display: grid;
+  width: 100%;
+  font-family: "Forum";
+  font-weight: bolder;
+}
+.cabecera p {
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.cabecera img {
+  width: 200px;
+  width: 175px;
+  margin-left: 5px;
+}
+.cabecera ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+.cabecera li {
+  list-style: none;
+}
+.cabecera a {
+  text-decoration: none;
+  color: white;
+}
+
+.cabecera2 {
+  background-color: #011126;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  border-top: 4px solid #A3C4D9;
+  font-family: "Forum";
+}
+.cabecera2 p {
+  color: white;
+}
+.cabecera2 img {
+  width: 80px;
+  height: 80px;
+}
+
+@media (min-width: 320px) {
+  .cabecera img {
+    width: 100px;
+    height: 100px;
+  }
+  .cabecera ul {
+    margin-left: 2px;
+  }
+}
+@media (min-width: 375px) {
+  .cabecera ul {
+    margin-right: 5px;
+  }
+}
+@media (min-width: 425px) {
+  .cabecera ul {
+    margin-right: 20px;
+  }
+}
+@media (min-width: 500px) {
+  .cabecera {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (min-width: 1000px) {
+  .cabecera {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cabecera ul {
+    margin-top: 40px;
+  }
+}/*# sourceMappingURL=header.css.map */
