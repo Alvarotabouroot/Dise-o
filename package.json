@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel:desarrollo": "parcel fuente/index.html",
+    "parcel:produccion": "parcel build fuente/index.html",
+    "limpieza": "rimraf dist",
+    "desarrollo": "npm-run-all limpieza:desarrollo",
+    "produccion": "npm-run-all limpieza:produccion"
   },
   "repository": {
     "type": "git",
