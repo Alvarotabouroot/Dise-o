@@ -1,12 +1,12 @@
 {
   "name": "disenio",
   "version": "1.0.0",
-  "description": "",
-
+  "description": "Web mamparas",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "parcel:des": "parcel fuente/index.html",
-    "parcel:prod": "parcel build fuente/index.html --public-url './' --dist-dir 'produccion'",
+    "parcel:prod": "parcel build fuente/index.html",
     "limpia": "rimraf produccion .cache .cache-loader",
     "des": "npm-run-all limpia parcel:des",
     "prod": "npm-run-all limpia parcel:prod"
@@ -21,14 +21,16 @@
     "url": "https://github.com/Alvarotabouroot/Disenio/issues"
   },
   "homepage": "https://github.com/Alvarotabouroot/Disenio#readme",
-  "dependencies": {
-    "npm-run-all": "^4.1.5",
-    "rimraf": "^4.1.2"
-  },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.3",
     "parcel": "^2.8.3",
     "parcel-plugin-imagemin": "^4.0.2",
     "sass": "^1.58.0"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.1.5",
+    "remixicon": "^2.5.0",
+    "rimraf": "^4.1.2"
   }
+  
 }
