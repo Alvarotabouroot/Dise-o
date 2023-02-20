@@ -37,6 +37,7 @@
     background-color: #011126;
     display: flex;
     width: 100%;
+    align-items: center;
     justify-content:center;
     border-top: 4px solid #A3C4D9;
     font-family: 'Forum';
