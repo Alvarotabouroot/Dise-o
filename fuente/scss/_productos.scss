@@ -1,0 +1,28 @@
+.productos {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 200px;
+	justify-content: center;
+}
+.card {
+	margin-top: 50px;
+	width: 300px;
+	font-family: 'Forum';
+	font-weight: bold;
+	img {
+		margin-left: 50px;
+		width: 200;
+		height: 300px;
+	}
+	.content {
+		margin-top: 5px;
+		a {
+			text-decoration: none;
+			color: black;
+		}
+	}
+}
+.cardborder {
+	border: 1px solid black;
+	height: 300px;
+}
