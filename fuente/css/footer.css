@@ -8,30 +8,4 @@ footer{
     width: 100%;
   }
 
-  @media (min-width: 320px) {
-    footer .contenidoFooter{
-      margin-left: 5px;
-    }
-  }
-  @media (min-width: 375px) {
-    footer .contenidoFooter{
-      margin-left: 5px;
-    }
-  }
-  @media (min-width: 425px) {
-    footer .contenidoFooter{
-      margin-left: 5px;
-    }
-  }
-
-  @media (min-width: 500px){
-    footer .contenidoFooter{
-      margin-left: 1px;
-    }
-  }
   
-  @media (min-width: 1000px) {
-    footer .contenidoFooter{
-      margin-left: 1px;
-    }
-  }
