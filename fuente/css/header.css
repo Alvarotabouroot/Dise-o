@@ -57,6 +57,7 @@
   text-decoration: none;
   color: white;
 }
+
 @media (min-width: 320px) {
     .cabecera img {
       width: 100px;
