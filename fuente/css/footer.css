@@ -23,3 +23,15 @@ footer{
       margin-left: 5px;
     }
   }
+
+  @media (min-width: 500px){
+    footer .contenidoFooter{
+      margin-left: 0px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    footer .contenidoFooter{
+      margin-left: 0px;
+    }
+  }
