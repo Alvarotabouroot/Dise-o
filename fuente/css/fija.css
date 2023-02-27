@@ -7,8 +7,33 @@
 .productos {
     display: flex;
     flex-wrap: wrap;
-    gap: 100px;
-    justify-content: space-around;
+    gap: 200px;
+    justify-content: center;
 }
 
 
+.card{
+    width: 300px;
+    font-family: 'Forum';
+}
+
+.cardborder{
+    border: 1px solid black;
+    height: 300px;
+}
+
+
+.card img{
+    margin-left: 50px;
+    width: 200;
+    height: 300px;
+}
+
+.card .content {
+    margin-top: 5px;
+}
+
+.card .content a{
+    text-decoration: none;
+    color: #262626;
+}
