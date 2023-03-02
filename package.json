@@ -4,8 +4,8 @@
   "description": "",
   
   "scripts": {
-    "parcel:des": "parcel fuente/index.html",
-    "parcel:prod": "parcel build fuente/index.html",
+    "parcel:des": "parcel fuente/html/index.html",
+    "parcel:prod": "parcel build fuente/html/index.html",
     "limpia": "rimraf dist",
     "des": "npm-run-all limpia parcel:des",
     "prod": "npm-run-all limpia parcel:prod"
