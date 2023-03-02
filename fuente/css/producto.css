@@ -6,6 +6,12 @@
 
 .info{
     display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 200px;
+    height: 280px;
 }
 
 @media (min-width: 500px){
