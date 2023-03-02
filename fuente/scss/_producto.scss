@@ -1,0 +1,22 @@
+.producto {
+	display: flex;
+    flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+.info {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	width: 300px;
+}
+img {
+	width: 280px;
+	height: 350px;
+}
+select {
+	height: 40px;
+}
+button {
+	height: 40px;
+}

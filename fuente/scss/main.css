@@ -43,6 +43,10 @@
   width: 80px;
   height: 80px;
 }
+.cabecera2 a {
+  text-decoration: none;
+  color: white;
+}
 
 @media (min-width: 320px) {
   .cabecera img {
@@ -212,12 +216,12 @@ footer {
 .productos {
   display: flex;
   flex-wrap: wrap;
-  gap: 200px;
+  gap: 100px;
   justify-content: center;
 }
 
 .card {
-  margin-top: 50px;
+  margin-top: 20px;
   width: 300px;
   font-family: "Forum";
   font-weight: bold;
@@ -231,6 +235,7 @@ footer {
   margin-top: 5px;
 }
 .card .content a {
+  margin-left: 80px;
   text-decoration: none;
   color: black;
 }
@@ -238,4 +243,31 @@ footer {
 .cardborder {
   border: 1px solid black;
   height: 300px;
+}
+
+.producto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 300px;
+}
+
+img {
+  width: 280px;
+  height: 350px;
+}
+
+select {
+  height: 40px;
+}
+
+button {
+  height: 40px;
 }/*# sourceMappingURL=main.css.map */
