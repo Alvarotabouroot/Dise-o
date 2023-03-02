@@ -1,7 +1,6 @@
 .producto{
     display: grid;
     width: 500px;
-
 }
 
 .info{
@@ -13,7 +12,9 @@ img{
     width: 200px;
     height: 280px;
 }
-
+select{
+    height: 50px;
+}
 @media (min-width: 500px){
     .producto { grid-template-columns: repeat(1, 1fr); }
 }
