@@ -1,7 +1,8 @@
 .producto{
+    border: 1px solid black;
     display: grid;
     width: 550px;
-    margin-left: 550px;
+    
 }
 
 .info{
