@@ -1,6 +1,7 @@
 .producto {
 	display: flex;
-	gap: 50px;
+	flex-wrap: wrap;
+	gap: 20px;
 	justify-content: center;
 }
 .info {
@@ -22,4 +23,11 @@ button {
 table {
 	border: 1px solid black;
 }
+th {
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+}
+
 

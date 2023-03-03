@@ -25,6 +25,6 @@ button{
     height: 40px;
 }
 
-table{
+table, th, td{
     border: 1px solid black;
 }
