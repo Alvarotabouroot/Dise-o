@@ -5,6 +5,10 @@
     justify-content: center;  
 }
 
+.content{
+    background-color: #011126;
+}
+
 .info{
     display: flex;
     flex-wrap: wrap;
