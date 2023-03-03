@@ -4,9 +4,10 @@
 	gap: 20px;
 	justify-content: center;
 }
-.content {
+.contentproducto {
 	background-color: #011126;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 	gap: 20px;
 }
