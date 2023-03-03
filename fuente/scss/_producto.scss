@@ -1,9 +1,7 @@
 .producto {
 	display: flex;
-    flex-wrap: wrap;
-	gap: 20px;
+	gap: 50px;
 	justify-content: center;
-	height: 400px;
 }
 .info {
 	display: flex;
@@ -12,8 +10,8 @@
 	width: 300px;
 }
 img {
-	width: 310px;
-	height: 380px;
+	width: 280px;
+	height: 350px;
 }
 select {
 	height: 40px;
@@ -21,3 +19,7 @@ select {
 button {
 	height: 40px;
 }
+table {
+	border: 1px solid black;
+}
+
