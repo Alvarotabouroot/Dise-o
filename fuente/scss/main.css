@@ -221,7 +221,6 @@ footer {
 }
 
 .card {
-  margin-top: 20px;
   width: 300px;
   font-family: "Forum";
   font-weight: bold;
@@ -252,11 +251,28 @@ footer {
   justify-content: center;
 }
 
+.contentproducto {
+  background-color: #011126;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.content img {
+  margin: 10px;
+}
+
 .info {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   width: 300px;
+  color: white;
+}
+
+.info button {
+  margin-left: 110px;
 }
 
 img {
@@ -270,4 +286,16 @@ select {
 
 button {
   height: 40px;
+}
+
+table {
+  border: 1px solid black;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
 }/*# sourceMappingURL=main.css.map */
