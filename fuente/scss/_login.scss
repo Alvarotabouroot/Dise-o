@@ -1,3 +1,5 @@
+@import 'variables';
+
 .login{
 	display: flex;
 	justify-content: center;
@@ -13,7 +15,7 @@
 	padding-left: 2em;
 	padding-right: 2em;
 	padding-bottom: 0.4em;
-	background-color: #171717;
+	background-color: $fondoOscuro;
 	border-radius: 25px;
 	transition: .4s ease-in-out;
 	&:hover {
@@ -43,7 +45,7 @@
 	border: none;
 	outline: none;
 	color: white;
-	background-color: #171717;
+	background-color: $fondoOscuro;
 	box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
 }
 .input-icon {
@@ -67,11 +69,11 @@
 	border: none;
 	outline: none;
 	transition: .4s ease-in-out;
-	background-color: #252525;
+	background-color: $fondoOscuro;
 	color: white;
 	&:hover {
-		background-color: black;
-		color: white;
+		background-color: #A3C4D9;
+		color: black;
 	}
 }
 .button2 {
@@ -82,11 +84,11 @@
 	border: none;
 	outline: none;
 	transition: .4s ease-in-out;
-	background-color: #252525;
+	background-color: $fondoOscuro;
 	color: white;
 	&:hover {
-		background-color: black;
-		color: white;
+		background-color: #A3C4D9;
+		color: black;
 	}
 }
 .button3 {
