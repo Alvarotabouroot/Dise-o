@@ -3,7 +3,8 @@
 
 .cabecera {
 	background-color: $fondoOscuro;
-	display: grid;
+	display: flex;
+	justify-content: space-between;
 	width: 100%;
 	font-family: $letra;
 	font-weight: bolder;
@@ -75,14 +76,9 @@
 		}
 	}
 }
-@media (min-width: 500px) {
-	.cabecera {
-		grid-template-columns: repeat(1, 1fr);
-	}
-}
+
 @media (min-width: 1000px) {
 	.cabecera {
-		grid-template-columns: repeat(2, 1fr);
 		ul {
 			margin-top: 40px;
 		}
