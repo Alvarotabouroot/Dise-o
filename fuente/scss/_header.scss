@@ -4,6 +4,7 @@
 .cabecera {
 	background-color: $fondoOscuro;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
 	font-family: $letra;
