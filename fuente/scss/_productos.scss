@@ -1,3 +1,6 @@
+@import 'variables';
+
+
 .productos {
 	display: flex;
 	flex-wrap: wrap;
@@ -6,7 +9,7 @@
 }
 .card {
 	width: 300px;
-	font-family: 'Forum';
+	font-family: $letra;
 	font-weight: bold;
 	img {
 		margin-left: 50px;
