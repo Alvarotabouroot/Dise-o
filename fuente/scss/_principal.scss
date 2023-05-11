@@ -1,24 +1,5 @@
 @import 'variables';
 
-@keyframes animate {
-	0% {
-		background-image: url(../img/slider1.png);
-		background-size: cover;
-	}
-	40% {
-		background-image: url(../img/slider2.png);
-		background-size: cover;
-	}
-	70% {
-		background-image: url(../img/slider3.png);
-		background-size: cover;
-	}
-	
-	100% {
-		background-image: url(../img/slider1.png);
-		background-size: cover;
-	}
-}
 body {
 	margin: 0;
 }
