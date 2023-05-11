@@ -18,8 +18,12 @@
 }
 @media (min-width: 425px) {
 	.cabecera {
-		ul {
-			margin-right: 20px;
+		flex-wrap: nowrap;
+		img{
+			width: 100px;
+			height: 100px;
+			margin-top: 70px;
+			margin-left: 30px;
 		}
 	}
 }
