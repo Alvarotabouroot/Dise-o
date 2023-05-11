@@ -24,13 +24,30 @@
 	}
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
+	.cabecera{
+		flex-wrap: nowrap;
+		gap: 30px;
+	}
+}
+@media (min-width: 1024px) {
 	.cabecera {
 		img{
 			width: 150px;
+			height: 150px;
 		}
 		ul {
-			margin-top: 40px;
+			margin-top: 50px;
+			width: 600px;
+		}
+	}
+}
+
+@media (min-width: 1440px){
+	.cabecera{
+		ul{
+			margin-top: 70px;
+			width: 1000px;
 		}
 	}
 }

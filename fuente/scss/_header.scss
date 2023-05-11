@@ -21,7 +21,7 @@
 	ul {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 9px;
+		gap: 20px;
 	}
 	li {
 		list-style: none;
@@ -29,6 +29,13 @@
 	a {
 		text-decoration: none;
 		color: white;
+		padding: 10px;
+		border-radius: 10px;
+		&:hover{
+			transition: all 750ms ease-in-out;
+			background-color: #A3C4D9;
+			color: black;
+		}
 	}
 }
 
