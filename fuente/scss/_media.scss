@@ -1,16 +1,19 @@
 @media (min-width: 320px) {
 	.cabecera {
+
 		img {
 			width: 100px;
 			height: 100px;
 		}
 		ul {
+			gap: 5px;
 			margin-left: 2px;
 		}
 	}
 }
 @media (min-width: 375px) {
 	.cabecera {
+		flex-wrap: nowrap;
 		ul {
 			margin-right: 5px;
 		}
@@ -32,11 +35,15 @@
 	.cabecera{
 		flex-wrap: nowrap;
 		gap: 30px;
+		img{
+			margin-top: 10px;
+		}
 	}
 }
 @media (min-width: 1024px) {
 	.cabecera {
 		img{
+			margin-top: 10px;
 			width: 150px;
 			height: 150px;
 		}
@@ -49,6 +56,9 @@
 
 @media (min-width: 1440px){
 	.cabecera{
+		img{
+			margin-top: 10px;
+		}
 		ul{
 			margin-top: 70px;
 			width: 1000px;
