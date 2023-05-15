@@ -8,9 +8,9 @@
 	.card {
 		position: relative;
 		width: 500px;
-		height: 230px;
+		height: 350px;
 		padding: 15px;
-		background: linear-gradient(60deg, #151516 0%, #1d2229 100%);
+		background: linear-gradient(60deg,#20638C 0%, #6B9FBF 50%, #A3C4D9 100%);
 		overflow: hidden;
 		margin-bottom: 15px;
 		border-radius: 20px;
@@ -54,8 +54,8 @@
 		}
 		.pic {
 			z-index: 100;
-			width: 395px;
-			height: 200px;
+			width: 350px;
+			height: 400px;
 			background-image: url(/fuente/img/wk-100.png);
 			background-size: cover;
 			border-radius: 12px;
@@ -68,7 +68,7 @@
 			bottom: 40px;
 			width: 30px;
 			height: 30px;
-			background-color: #772a9b;
+			background-color: #262626;
 			border: none;
 			border-radius: 30px;
 			cursor: pointer;
@@ -95,7 +95,7 @@
 			}
 			.pic {
 				filter: grayscale(0);
-				width: 470px;
+				width: 300px;
 			}
 		}
 	}
