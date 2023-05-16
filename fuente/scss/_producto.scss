@@ -4,7 +4,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
+	gap: 50px;
+	flex-wrap: wrap;
 	.card {
 		position: relative;
 		width: 500px;
@@ -35,7 +37,7 @@
 			width: 150px;
 			color: #fff;
 			opacity: 0;
-			font-size: 12px;
+			font-size: 20px;
 			text-align: center;
 			letter-spacing: 1px;
 			transition: 0.2s ease;
@@ -55,11 +57,10 @@
 		.pic {
 			z-index: 100;
 			width: 350px;
-			height: 400px;
+			height: 350px;
 			background-image: url(/fuente/img/wk-100.png);
 			background-size: cover;
 			border-radius: 12px;
-			filter: grayscale(100%);
 			transition: 0.3s ease;
 		}
 		button {
@@ -74,7 +75,7 @@
 			cursor: pointer;
 			outline: none;
 			opacity: 1;
-			transition: 0.3s ease;
+			transition: 0.6s ease;
 		}
 		&:hover {
 			button {
@@ -94,7 +95,6 @@
 				top: 80px;
 			}
 			.pic {
-				filter: grayscale(0);
 				width: 300px;
 			}
 		}
