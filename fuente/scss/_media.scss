@@ -10,6 +10,75 @@
 			margin-left: 2px;
 		}
 	}
+
+	.container{
+		width: 90%;
+		margin-left: 15px;
+		.card{
+			.pic{
+				width: 250px;
+				
+			}
+			h2{
+				font-size: 40px;
+				right: 100px;
+			} 
+			&:hover{
+				.pic{
+					width: 250px;
+				}
+				button{
+					transform: scale(14.5);
+				}
+				a{
+					top: 180px;
+					right: 35px;
+				}
+			}
+		}
+
+		.cardd{
+			.pic2{
+				width: 250px;
+			}
+			h2{
+				right: 40px;
+				bottom: 50px;
+				font-size: 33px;
+			}
+			&:hover{
+				.pic2{
+					width: 250px;
+				}
+				.precio{
+					left: 50px;
+					top: 325px;
+				}
+				a{
+					top: 310px;
+				}
+			}
+		}
+	}
+
+	.form{
+		width: 200px;
+		height: 430px;
+	}
+
+	.button1{
+		padding: 0.4em;
+		
+	}
+	.button2{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#heading{
+		position: relative;
+		top: 20px;
+	}
 }
 @media (min-width: 375px) {
 	.cabecera {
@@ -26,6 +95,7 @@
 			.pic{
 				width: 300px;
 			}
+			
 		}
 		
 
@@ -33,12 +103,20 @@
 			.pic2{
 				width: 300px;
 			}
-
 			h2{
 				right: 70px;
 				bottom: 50px;
 			}
+			&:hover{
+				.precio{
+					left: 100px;
+				}
+			}
 		}
+	}
+
+	.form{
+		width: 250px;
 	}
 }
 @media (min-width: 425px) {
@@ -55,6 +133,34 @@
 	.container{
 		width: 90%;
 		margin-left: 20px;
+
+		.cardd {
+			h2{
+				right: 100px;
+				bottom: 45px;
+			}
+			&:hover{
+				.precio{
+					left: 130px;
+					top: 322px;
+				}
+			}
+		}
+	}
+
+	.form{
+		width: 300px;
+		height: 450px;
+	}
+
+	.button1{
+		padding: 1em;
+		text-align:center;
+	}
+
+	.button3{
+		width: 265px;
+		margin-left: 18px;
 	}
 }
 
@@ -65,6 +171,30 @@
 		img{
 			margin-top: 10px;
 		}
+	}
+
+	.container{
+		.cardd{
+			h2{
+				right: 250px;
+			}
+			&:hover{
+				
+				.precio{
+					left: 280px;
+				}
+			}
+		}
+	}
+
+	.form{
+		width: 500px;
+		margin-left: 50px;
+	}
+
+	.button3{
+		width: 270px;
+		margin-left: 115px;
 	}
 }
 @media (min-width: 1024px) {
@@ -78,6 +208,21 @@
 			margin-top: 50px;
 			width: 600px;
 		}
+	}
+
+	.button1{
+		padding-left: 2.3em;
+		padding-right: 2.3em;
+	}
+
+	.button2{
+		padding-left: 2.3em;
+		padding-right: 2.3em;
+	}
+
+	.button3{
+		width: 360px;
+		margin-left: 70px;
 	}
 }
 
