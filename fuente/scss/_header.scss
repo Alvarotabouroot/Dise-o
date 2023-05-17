@@ -39,21 +39,21 @@
 	}
 }
 
-.cabecera2 {
+.cabecera {
 	background-color: $fondoOscuro;
 	display: flex;
 	width: 100%;
 	justify-content: center;
 	border-top: 4px solid #A3C4D9;
 	font-family: $letra;
-	p {
+	p{
 		color: white;
 	}
 	img {
 		width: 80px;
 		height: 80px;
 	}
-	a{
+	.nombreEmpresa{
 		text-decoration: none;
 		color: white;
 	}
