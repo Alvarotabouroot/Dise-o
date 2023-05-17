@@ -1,11 +1,10 @@
 @media (min-width: 320px) {
 	.menu {
-
 		img {
 			width: 100px;
 			height: 100px;
 		}
-		ul {
+		.lista{
 			gap: 5px;
 			margin-left: 2px;
 		}
@@ -59,12 +58,10 @@
 			}
 		}
 	}
-
 	.formulariologin{
 		width: 200px;
 		height: 430px;
 	}
-
 	.button1{
 		padding: 0.4em;
 		
@@ -73,7 +70,6 @@
 		padding-left: 1em;
 		padding-right: 1em;
 	}
-
 	#heading{
 		position: relative;
 		top: 20px;
@@ -82,11 +78,10 @@
 @media (min-width: 375px) {
 	.menu {
 		flex-wrap: nowrap;
-		ul {
+		.lista {
 			margin-right: 5px;
 		}
 	}
-
 	.containerProducto{
 		width: 90%;
 		margin-left: 20px;
@@ -111,7 +106,6 @@
 			}
 		}
 	}
-
 	.formulariologin{
 		width: 250px;
 	}
@@ -126,11 +120,9 @@
 			margin-left: 30px;
 		}
 	}
-
 	.containerProducto{
 		width: 90%;
 		margin-left: 20px;
-
 		.cardd {
 			h2{
 				right: 100px;
@@ -144,23 +136,19 @@
 			}
 		}
 	}
-
 	.formulariologin{
 		width: 300px;
 		height: 450px;
 	}
-
 	.button1{
 		padding: 1em;
 		text-align:center;
 	}
-
 	.button3{
 		width: 265px;
 		margin-left: 18px;
 	}
 }
-
 @media (min-width: 768px) {
 	.menu{
 		flex-wrap: nowrap;
@@ -169,7 +157,6 @@
 			margin-top: 10px;
 		}
 	}
-
 	.containerProducto{
 		.cardd{
 			h2{
@@ -183,12 +170,10 @@
 			}
 		}
 	}
-
 	.formulariologin{
 		width: 500px;
 		margin-left: 50px;
 	}
-
 	.button3{
 		width: 270px;
 		margin-left: 115px;
@@ -201,34 +186,30 @@
 			width: 150px;
 			height: 150px;
 		}
-		ul {
+		.lista{
 			margin-top: 50px;
 			width: 600px;
 		}
 	}
-
 	.button1{
 		padding-left: 2.3em;
 		padding-right: 2.3em;
 	}
-
 	.button2{
 		padding-left: 2.3em;
 		padding-right: 2.3em;
 	}
-
 	.button3{
 		width: 360px;
 		margin-left: 70px;
 	}
 }
-
 @media (min-width: 1440px){
 	.menu{
 		img{
 			margin-top: 10px;
 		}
-		ul{
+		.lista{
 			margin-top: 70px;
 			width: 1000px;
 		}
