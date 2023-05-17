@@ -1,5 +1,5 @@
 @media (min-width: 320px) {
-	.cabecera {
+	.menu {
 
 		img {
 			width: 100px;
@@ -80,7 +80,7 @@
 	}
 }
 @media (min-width: 375px) {
-	.cabecera {
+	.menu {
 		flex-wrap: nowrap;
 		ul {
 			margin-right: 5px;
@@ -117,7 +117,7 @@
 	}
 }
 @media (min-width: 425px) {
-	.cabecera {
+	.menu {
 		flex-wrap: nowrap;
 		img{
 			width: 100px;
@@ -162,7 +162,7 @@
 }
 
 @media (min-width: 768px) {
-	.cabecera{
+	.menu{
 		flex-wrap: nowrap;
 		gap: 30px;
 		img{
@@ -195,7 +195,7 @@
 	}
 }
 @media (min-width: 1024px) {
-	.cabecera {
+	.menu {
 		img{
 			margin-top: 10px;
 			width: 150px;
@@ -224,7 +224,7 @@
 }
 
 @media (min-width: 1440px){
-	.cabecera{
+	.menu{
 		img{
 			margin-top: 10px;
 		}

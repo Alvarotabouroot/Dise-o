@@ -1,7 +1,7 @@
 @import 'variables';
 
 
-.cabecera {
+.menu {
 	background-color: $fondoOscuro;
 	display: flex;
 	flex-wrap: wrap;
@@ -18,23 +18,23 @@
 		width: 175px;
 		margin-left: 5px;
 	}
-	ul {
+	.lista{
 		display: flex;
 		flex-wrap: wrap;
 		gap: 20px;
-	}
-	li {
-		list-style: none;
-	}
-	a {
-		text-decoration: none;
-		color: white;
-		padding: 10px;
-		border-radius: 10px;
-		&:hover{
-			transition: all 750ms ease-in-out;
-			background-color: #A3C4D9;
-			color: black;
+		li {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+			padding: 10px;
+			border-radius: 10px;
+			&:hover{
+				transition: all 750ms ease-in-out;
+				background-color: #A3C4D9;
+				color: black;
+			}
 		}
 	}
 }
