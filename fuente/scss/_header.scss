@@ -7,8 +7,8 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 100%;
-	font-family: $letra;
 	font-weight: bolder;
+	font-family: $letra;
 	p {
 		color: white;
 		width: fit-content;
@@ -22,7 +22,6 @@
 		display: flex;
 		flex-wrap: wrap;
 		gap: 7px;
-		font-family: $letra;
 		li {
 			list-style: none;
 		}
@@ -31,7 +30,6 @@
 			color: white;
 			padding: 10px;
 			border-radius: 10px;
-			font-family: $letra;
 			&:hover{
 				transition: all 750ms ease-in-out;
 				background-color: #A3C4D9;
@@ -47,7 +45,6 @@
 	width: 100%;
 	justify-content: center;
 	border-top: 4px solid #A3C4D9;
-	font-family: $letra;
 	p{
 		color: white;
 	}

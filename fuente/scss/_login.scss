@@ -1,19 +1,12 @@
 @import 'variables';
 
-.menu{
-	.lista{
-		font-family: $letra;
-	}
-}
 
 .login{
 	display: flex;
 	justify-content: center;
-	font-family: $letra;
 }
 
 .formulariologin {
-	font-family: $letra;
 	width: 600px;
 	height: 500px;
 	display: flex;
@@ -37,6 +30,7 @@
 		margin-top: 2.5em;
 	}
 }
+
 #heading {
 	text-align: center;
 	margin: 2em;
@@ -44,7 +38,6 @@
 	font-size: 1.2em;
 }
 .field {
-	font-family: $letra;
 	display: flex;
 	align-items: center;
 	justify-content: center;
