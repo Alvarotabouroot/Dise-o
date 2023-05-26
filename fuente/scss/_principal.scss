@@ -10,13 +10,7 @@ p {
 	text-align: center;
 	font-family: $letra;
 }
-.slider {
-	background-size: cover;
-	height: 454px;
-	width: 100%;
-	border-radius: 10px;
-	animation: animate 20s infinite ease-in-out;
-}
+
 .container2 {
 	max-width: 100%;
 	margin: 0 auto;
@@ -37,6 +31,8 @@ p {
 	a {
 		color: white;
 		text-decoration: none;
+		font-weight: bold;
+		padding: 10px;
 	}
 	&:hover {
 		.flip-card-inner {
