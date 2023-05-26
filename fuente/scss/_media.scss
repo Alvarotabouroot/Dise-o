@@ -1,8 +1,20 @@
-@media (min-width: 320px) {
-	.menumovil{
-		display: block;
-		margin-top: 30px;
-
+@media (min-width: 320px){
+    .cabecera1{
+        flex-wrap: nowrap;
+        img{
+			width: 100px;
+			height: 100px;
+		}
+        .lista{
+            display: none;
+        }
+        .imagenmenu{
+			width: 36px;
+			height: 36px;
+		}
+    }
+    .menumovil{
+        margin-top: 30px;
 		#navigation{
 			&:target{
 				.navigation-items{
@@ -11,22 +23,7 @@
 			}
 		}
 	}
-	.menu {
-		flex-wrap: nowrap;
-		img {
-			width: 100px;
-			height: 100px;
-		}
-		.lista{
-			display: none;
-		}
-		.imagenmenu{
-			width: 36px;
-			height: 36px;
-		}
-	}
-
-	.containerProducto{
+    .containerProducto{
 		width: 90%;
 		margin-left: 15px;
 		.card{
@@ -61,6 +58,9 @@
 				font-size: 33px;
 			}
 			&:hover{
+				h2{
+					top: 70px;
+				}
 				.pic2{
 					width: 250px;
 				}
@@ -74,7 +74,7 @@
 			}
 		}
 	}
-	.formulariologin{
+    .formulariologin{
 		width: 200px;
 		height: 430px;
 	}
@@ -92,16 +92,22 @@
 	}
 }
 @media (min-width: 375px){
-	.menumovil{
+    .cabecera1{
+        flex-wrap: nowrap;
+        img{
+			width: 100px;
+			height: 100px;
+		}
+        .lista{
+            display: none;
+            margin-right: 5px;
+        }
+    }
+    .menumovil{
 		margin-top: 30px;
 	}
-	.menu {
-		flex-wrap: nowrap;
-		.lista {
-			margin-right: 5px;
-		}
-	}
-	.containerProducto{
+
+    .containerProducto{
 		width: 90%;
 		margin-left: 20px;
 		.card {
@@ -115,7 +121,7 @@
 				width: 300px;
 			}
 			h2{
-				right: 70px;
+				right: 30px;
 				bottom: 50px;
 			}
 			&:hover{
@@ -125,31 +131,31 @@
 			}
 		}
 	}
-	.formulariologin{
+
+    .formulariologin{
 		width: 250px;
 	}
 }
-@media (min-width: 425px) {
-	.menumovil{
+@media (min-width: 425px){
+    .cabecera1{
+        img{
+			width: 100px;
+			height: 100px;
+		}
+        .lista{
+            display: none;
+        }
+    }
+    .menumovil{
 		display: block;
 		margin-top: 30px;
 	}
-	.menu {
-		img{
-			width: 100px;
-			height: 100px;
-			
-		}
-		.lista{
-			display: none;
-		}
-	}
-	.containerProducto{
+    .containerProducto{
 		width: 90%;
 		margin-left: 20px;
 		.cardd {
 			h2{
-				right: 100px;
+				right: 30px;
 				bottom: 45px;
 			}
 			&:hover{
@@ -160,7 +166,7 @@
 			}
 		}
 	}
-	.formulariologin{
+    .formulariologin{
 		width: 300px;
 		height: 450px;
 	}
@@ -173,87 +179,68 @@
 		margin-left: 18px;
 	}
 }
-@media (min-width: 768px) {
-	.menumovil{
-		display: none;
-	}
-	.menu{
-		flex-wrap: nowrap;
-		gap: 30px;
-		img{
+@media (min-width: 768px){
+    .cabecera1{
+        flex-wrap: nowrap;
+        
+        img{
 			margin-top: 10px;
 		}
-		.lista{
-			display: flex;
-		}
-	}
+        .lista{
+            display: flex;
+            flex-wrap: wrap;
+            width: 430px;
+            margin-top: 20px;
+            margin-right: 100px;
+        }
+    }
+    .menumovil{
+        display: none;
+    }
+
 	.containerProducto{
-		.cardd{
-			h2{
-				right: 250px;
-			}
+		.cardd {
 			&:hover{
-				
 				.precio{
 					left: 280px;
+					top: 322px;
 				}
 			}
 		}
 	}
-	.formulariologin{
-		width: 500px;
-		margin-left: 50px;
-	}
-	.button3{
-		width: 270px;
-		margin-left: 115px;
-	}
 }
-@media (min-width: 1024px) {
-	.menumovil{
-		display: none;
-	}
-	.menu {
-		img{
+@media (min-width: 1024px){
+    .cabecera1{
+        img{
 			margin-top: 10px;
 			width: 150px;
 			height: 150px;
 		}
-		.imagenmenu{
-			width: 36px;
-			height: 36px;
-		}
-		.lista{
+        .lista{
 			display: flex;
 			margin-top: 50px;
-			width: 600px;
+            width: 500px;
 		}
-	}
-	.button1{
-		padding-left: 2.3em;
-		padding-right: 2.3em;
-	}
-	.button2{
-		padding-left: 2.3em;
-		padding-right: 2.3em;
-	}
-	.button3{
-		width: 360px;
-		margin-left: 70px;
-	}
+    }
+    .menumovil{
+        display: none;
+    }
 }
 @media (min-width: 1440px){
-	.menumovil{
-		display: none;
-	}
-	.menu{
-		img{
+    .cabecera1{
+        img{
 			margin-top: 10px;
+			width: 150px;
+			height: 150px;
 		}
-		.lista{
-			display: flex;
-			margin-top: 70px;
-			width: 1000px;
-		}
-	}
+        .lista{
+            display: flex;
+            margin-top: 70px;
+            width: 1000px;
+            font-size: 22px;
+        }
+    }
+    .menumovil{
+        display: none;
+    }
 }
