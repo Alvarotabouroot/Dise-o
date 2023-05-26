@@ -1,5 +1,11 @@
 @import 'variables';
 
+.menu{
+	.lista{
+		font-family: $letra;
+	}
+}
+
 .login{
 	display: flex;
 	justify-content: center;

@@ -1,12 +1,28 @@
 @media (min-width: 320px) {
+	.menumovil{
+		display: block;
+		margin-top: 30px;
+
+		#navigation{
+			&:target{
+				.navigation-items{
+					width: 70%;
+				}
+			}
+		}
+	}
 	.menu {
+		flex-wrap: nowrap;
 		img {
 			width: 100px;
 			height: 100px;
 		}
 		.lista{
-			gap: 5px;
-			margin-left: 2px;
+			display: none;
+		}
+		.imagenmenu{
+			width: 36px;
+			height: 36px;
 		}
 	}
 
@@ -75,7 +91,10 @@
 		top: 20px;
 	}
 }
-@media (min-width: 375px) {
+@media (min-width: 375px){
+	.menumovil{
+		margin-top: 30px;
+	}
 	.menu {
 		flex-wrap: nowrap;
 		.lista {
@@ -111,13 +130,18 @@
 	}
 }
 @media (min-width: 425px) {
+	.menumovil{
+		display: block;
+		margin-top: 30px;
+	}
 	.menu {
-		flex-wrap: nowrap;
 		img{
 			width: 100px;
 			height: 100px;
-			margin-top: 70px;
-			margin-left: 30px;
+			
+		}
+		.lista{
+			display: none;
 		}
 	}
 	.containerProducto{
@@ -150,11 +174,17 @@
 	}
 }
 @media (min-width: 768px) {
+	.menumovil{
+		display: none;
+	}
 	.menu{
 		flex-wrap: nowrap;
 		gap: 30px;
 		img{
 			margin-top: 10px;
+		}
+		.lista{
+			display: flex;
 		}
 	}
 	.containerProducto{
@@ -180,13 +210,21 @@
 	}
 }
 @media (min-width: 1024px) {
+	.menumovil{
+		display: none;
+	}
 	.menu {
 		img{
 			margin-top: 10px;
 			width: 150px;
 			height: 150px;
 		}
+		.imagenmenu{
+			width: 36px;
+			height: 36px;
+		}
 		.lista{
+			display: flex;
 			margin-top: 50px;
 			width: 600px;
 		}
@@ -205,11 +243,15 @@
 	}
 }
 @media (min-width: 1440px){
+	.menumovil{
+		display: none;
+	}
 	.menu{
 		img{
 			margin-top: 10px;
 		}
 		.lista{
+			display: flex;
 			margin-top: 70px;
 			width: 1000px;
 		}
