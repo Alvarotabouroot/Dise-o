@@ -19,6 +19,8 @@
     "url": "https://github.com/Alvarotabouroot/Disenio/issues"
   },
   "homepage": "https://github.com/Alvarotabouroot/Disenio#readme",
+
+  
   "dependencies": {
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
