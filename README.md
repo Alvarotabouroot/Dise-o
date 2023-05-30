@@ -1,1 +1,1 @@
-
+Necesitaras npm run prod para hacer el desarrollo del proyecto. Una vez lo hagaw deberás aplicar npm run des para poner en desarrollo la web y poder visualizarla. Si abres el servidor en local no se te cargarán las hojas de estilo ya que son .scss.

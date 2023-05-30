@@ -7,7 +7,7 @@ p {
 	font-family: $letra;
     font-size: 22px;
 }
-
+/*-------------------- Corresponde a la seccion que contiene las todas las fichas de productos --------------*/
 .contenedorFichas {
 	max-width: 100%;
 	margin: 0 auto;
@@ -15,7 +15,7 @@ p {
 	grid-gap: 1rem;
 	margin-bottom: 70px;
 }
-
+/* ---------------------------- Se corresponde con la primera seccion de productos -------------------------*/
 .primeras_fichas {
 	width: 100%;
 	display: flex;
@@ -23,7 +23,7 @@ p {
 	gap: 120px;
 	justify-content: center;
 }
-
+/* ---------------------------- Se corresponde con la segunda seccion de productos -------------------------*/
 .segundas_fichas {
 	width: 100%;
 	display: flex;
@@ -32,7 +32,7 @@ p {
 	justify-content: center;
 }
 
-
+/*El coódigo siguiente trata el aspecto de las fichas o tarjetas de productos, dandole el efecto de rotacion*/
 .flip-card {
 	background-color: transparent;
 	width: 300px;

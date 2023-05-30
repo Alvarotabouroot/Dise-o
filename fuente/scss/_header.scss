@@ -3,7 +3,7 @@
 body{
     margin: 0;
 }
-
+/*------------------------------- Corresponde a la parte del logo y el menu ---------------------------------*/
 .cabecera1{
     max-width: 100%;
     display: flex;
@@ -30,7 +30,7 @@ body{
 		}
     }
 }
-
+/*---------------Corresponde a la segunda parte de la cabecera que incluye el nombre y los iconos ---------*/
 .cabecera2 {
 	background-color: $azulOscuro;
 	font-family: $letra;
