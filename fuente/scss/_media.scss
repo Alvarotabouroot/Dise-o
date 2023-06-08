@@ -1,9 +1,9 @@
 @media (min-width: 320px){
     .cabecera1{
         flex-wrap: nowrap;
-        img{
-			width: 100px;
-			height: 100px;
+		img{
+			margin-top: 30px;
+			padding: 0;
 		}
         .lista{
             display: none;
@@ -14,7 +14,6 @@
 		}
     }
     .menumovil{
-        margin-top: 30px;
 		#navigation{
 			&:target{
 				.navigation-items{
@@ -25,7 +24,7 @@
 	}
     .containerProducto{
 		width: 90%;
-		margin-left: 15px;
+		margin-left: 20px;
 		.card{
 			.pic{
 				width: 250px;
@@ -90,22 +89,23 @@
 		position: relative;
 		top: 20px;
 	}
+	.contentfooter{
+		width: 70%;
+		justify-content: center;
+	}
 }
 @media (min-width: 375px){
     .cabecera1{
         flex-wrap: nowrap;
-        img{
-			width: 100px;
-			height: 100px;
+		img{
+			margin-top: 30px;
+			padding: 0;
 		}
         .lista{
             display: none;
             margin-right: 5px;
         }
     }
-    .menumovil{
-		margin-top: 30px;
-	}
 
     .containerProducto{
 		width: 90%;
@@ -135,12 +135,16 @@
     .formulariologin{
 		width: 250px;
 	}
+	.contentfooter{
+		width: 70%;
+		justify-content: center;
+	}
 }
 @media (min-width: 425px){
     .cabecera1{
-        img{
-			width: 100px;
-			height: 100px;
+		img{
+			margin-top: 30px;
+			padding: 0;
 		}
         .lista{
             display: none;
@@ -148,7 +152,6 @@
     }
     .menumovil{
 		display: block;
-		margin-top: 30px;
 	}
     .containerProducto{
 		width: 90%;
@@ -178,20 +181,23 @@
 		width: 265px;
 		margin-left: 18px;
 	}
+	.contentfooter{
+		width: 70%;
+		justify-content: center;
+	}
 }
 @media (min-width: 768px){
+
     .cabecera1{
         flex-wrap: nowrap;
-        
-        img{
+		img{
 			margin-top: 10px;
+			padding-bottom: 10px;
 		}
         .lista{
             display: flex;
             flex-wrap: wrap;
-            width: 430px;
-            margin-top: 20px;
-            margin-right: 100px;
+            margin-top: 25px;
         }
     }
     .menumovil{
@@ -208,39 +214,52 @@
 			}
 		}
 	}
+	.contentfooter{
+		width: 70%;
+		justify-content: center;
+	}
 }
 @media (min-width: 1024px){
     .cabecera1{
-        img{
-			margin-top: 10px;
-			width: 150px;
-			height: 150px;
+		img{
+			margin-top: 20px;
+			padding-bottom: 10px;
 		}
         .lista{
 			display: flex;
-			margin-top: 50px;
-            width: 500px;
+			margin-top: 30px;
 		}
     }
+	.containerProducto{
+		margin-top: 90px;
+		margin-left: 70px;
+	}
     .menumovil{
         display: none;
     }
+
+	.contentfooter{
+		width: 75%;
+		justify-content: center;
+	}
 }
 @media (min-width: 1440px){
     .cabecera1{
-        img{
+		img{
 			margin-top: 10px;
-			width: 150px;
-			height: 150px;
+			padding: 0;
 		}
         .lista{
             display: flex;
-            margin-top: 70px;
-            width: 1000px;
+            margin-top: 30px;
             font-size: 22px;
         }
     }
     .menumovil{
         display: none;
     }
+	.contentfooter{
+		width: 100%;
+		justify-content: center;
+	}
 }
