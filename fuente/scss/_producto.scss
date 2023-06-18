@@ -59,15 +59,6 @@
         letter-spacing: 1px;
         transition: 0.2s ease;
     }
-    .pic2 {
-        z-index: 100;
-        width: 350px;
-        height: 350px;
-        background-image: url(/fuente/img/wk-100.png);
-        background-size: cover;
-        border-radius: 12px;
-        transition: 0.3s ease;
-    }
     button {
         position: absolute;
         right: 30px;
@@ -128,4 +119,13 @@
             opacity: 1;
         }
     }
+}
+
+.picture{
+    img{
+        width: 300px;
+        height: 350px;
+        border-radius: 10px;
+    }
+    
 }

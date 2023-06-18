@@ -93,6 +93,11 @@
 		width: 70%;
 		justify-content: center;
 	}
+	.picture{
+		img{
+			width: 255px;
+		}
+	}
 }
 @media (min-width: 375px){
     .cabecera1{
@@ -138,6 +143,11 @@
 	.contentfooter{
 		width: 70%;
 		justify-content: center;
+	}
+	.picture{
+		img{
+			width: 300px;
+		}
 	}
 }
 @media (min-width: 425px){
